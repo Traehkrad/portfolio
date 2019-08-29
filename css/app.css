@@ -1,1 +1,12 @@
-.proof{border:1px solid blue;}
+section, article, ul{outline:1px solid red; background: rgba(255, 0, 0, 0.2);}
+
+.grid-container {outline:1px solid blue;}
+
+.proof {border:1px solid red;}
+
+@media only screen and (max-width: 50em) {
+  /* Turns the h1 into a certain color when the screen is a certain size */
+  h1{color:red;}
+}
+
+/* max-with 640px, mobile-only styles, use when QAing mobile issues */
